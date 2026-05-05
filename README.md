@@ -2,17 +2,17 @@
 # 👋 Hi, I'm Phùng Trung Bắc
 
 ## 🔎 About Me
-I’m a MIS student interested in data analysis.  
-I work with SQL, Python, Excel, and Power BI to explore data and build simple reports.  
-Currently looking for a Data Analyst opportunity.
+I’m a MIS student working with data to answer business questions.  
+I use SQL, Python, and BI tools to clean data, explore patterns, and build simple dashboards.  
+Currently looking for a Junior Data Analyst opportunity.
 
 ---
 
 ## 🛠 Skills
-- SQL  
-- Excel  
-- Power BI  
-- Python  
+- SQL (data querying, joins, aggregations)
+- Python (pandas for data analysis)
+- Excel (data cleaning, pivot tables)
+- Power BI (basic dashboards)
 
 ---
 
@@ -20,17 +20,18 @@ Currently looking for a Data Analyst opportunity.
 *(Will keep updating)*
 
 ### Recruitment Process Tracking (Odoo)
-- Built a recruitment workflow  
-- Tracked hiring pipeline  
-- Analyzed basic hiring metrics  
+- Built a recruitment workflow and tracking system  
+- Queried and analyzed hiring data  
+- Tracked metrics like pipeline status and time-to-hire  
+- Identified basic bottlenecks in the hiring process  
 👉 Link: (update later)
 
 ---
 
 ### [Next Project]
-- Description  
-- Tools used  
-- Key takeaway  
+- Problem / dataset  
+- What I did (SQL / Python / BI)  
+- Key insight  
 👉 Link: (update later)
 
 ---
