@@ -1,7 +1,7 @@
 # Excel Sales Dashboard
 
 ## Overview
-This project analyzes sales performance using Microsoft Excel to identify revenue sources, weak regions, and products with high sales but low profitability. The dashboard was built to turn raw transaction data into a clear business story.
+This project analyzes sales performance using the Global Superstore dataset to identify revenue sources, underperforming regions, and product categories with high sales but low profit.
 
 ## Business Question
 - Where does the revenue come from?
@@ -9,34 +9,37 @@ This project analyzes sales performance using Microsoft Excel to identify revenu
 - Which products sell well but generate low profit?
 
 ## Data Preparation
-- Checked the dataset size and basic data quality.
-- Converted Order Date to Date format.
-- Converted Sales and Profit to numeric format.
+- Reviewed the dataset structure and checked data quality.
+- Converted `Order Date` to Date format.
+- Converted `Sales` and `Profit` to numeric format.
 - Created `Month` using `TEXT([Order Date], "mmm")`.
 - Created `Year` using `YEAR([Order Date])`.
-- Verified whether Sales and Profit contain negative values.
+- Checked for negative values in `Sales` and `Profit`.
 
 ## Analysis
-- Built Pivot Table 1 for monthly sales trend.
-- Built Pivot Table 2 for sales by region.
-- Built Pivot Table 3 for sales and profit by category.
+- Built a monthly sales trend pivot table.
+- Built a sales by region pivot table.
+- Built a sales and profit by category pivot table.
 - Designed a dashboard with KPI cards and pivot charts.
-- Compared sales volume against profitability to identify performance gaps.
+- Compared sales and profit to identify margin issues.
 
 ## Insight
-- One or more categories may show high sales but low profit, indicating margin pressure.
-- One region may contribute less sales than the others and should be reviewed.
-- Monthly sales may show seasonality, with some months consistently stronger than others.
+- Technology is likely to drive the highest revenue and profit.
+- The South region is expected to be the weakest-performing area.
+- Furniture may show high sales but comparatively low profit.
+- Sales may show clear seasonality across months.
 
 ## Action
-- Review pricing, discount, and cost structure for low-profit high-sales categories.
+- Review pricing and discount strategy for low-profit categories.
 - Investigate weak regions and improve local sales execution.
-- Use seasonal patterns for campaign timing and inventory planning.
+- Use seasonal patterns to plan marketing and inventory.
+- Focus on profitable categories to maximize margin.
 
 ## Files
-- `dashboard.xlsx` - Excel dashboard file.
-- `dashboard.png` - dashboard preview image.
-- `data/sales_data.xlsx` - source data, if included.
+- `dashboard.xlsx`
+- `dashboard.png`
+- `data/sales_data.xlsx`
+- `images/dashboard_preview.png`
 
 ## Tools
 - Microsoft Excel
