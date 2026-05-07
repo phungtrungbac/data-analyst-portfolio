@@ -1,7 +1,7 @@
 # Excel Sales Dashboard
 
 ## Overview
-This project analyzes sales performance using the Global Superstore dataset to identify revenue sources, underperforming regions, and product categories with high sales but low profit.
+This project analyzes sales performance using the Global Superstore dataset to identify revenue sources, weak-performing regions, and product categories with high sales but low profit.
 
 ## Business Question
 - Where does the revenue come from?
@@ -24,10 +24,10 @@ This project analyzes sales performance using the Global Superstore dataset to i
 - Compared sales and profit to identify margin issues.
 
 ## Insight
-- Technology is likely to drive the highest revenue and profit.
-- The South region is expected to be the weakest-performing area.
-- Furniture may show high sales but comparatively low profit.
-- Sales may show clear seasonality across months.
+- Technology generated the highest revenue and profit.
+- The South region contributed the lowest sales.
+- Furniture showed high sales but lower profit margin.
+- Sales showed clear seasonality across months.
 
 ## Action
 - Review pricing and discount strategy for low-profit categories.
