@@ -148,5 +148,3 @@ The SQL is ANSI-compatible. Replace `CREATE VIEW` with `CREATE OR REPLACE VIEW` 
 | 2 | **Customer Segmentation** ← you are here | SQL | Customer Analytics |
 
 ---
-
-*If this was helpful, please ⭐ star the repo!*
