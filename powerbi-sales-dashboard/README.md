@@ -31,8 +31,6 @@ powerbi-sales-dashboard/
     └── dashboard_preview.png
 ```
 
-> ⚠️ **`.pbix` file not included** — Power BI Desktop files are binary and don't version-control well. Follow the step-by-step guide below to rebuild it in ~20 minutes.
-
 ---
 
 ## ⚙️ Step-by-Step: Build This in Power BI Desktop
