@@ -1,0 +1,84 @@
+// ============================================================
+// PROJECT 4: Power BI — DAX Measures
+// Copy these into your Power BI Desktop model
+// ============================================================
+
+// ── Core KPI Measures ────────────────────────────────────────
+
+Total Sales = 
+    SUM(orders[Sales])
+
+Total Profit = 
+    SUM(orders[Profit])
+
+Profit Margin = 
+    DIVIDE([Total Profit], [Total Sales], 0)
+
+Total Orders = 
+    DISTINCTCOUNT(orders[Order ID])
+
+Total Customers = 
+    DISTINCTCOUNT(orders[Customer ID])
+
+Avg Order Value = 
+    DIVIDE([Total Sales], [Total Orders], 0)
+
+// ── YoY Comparison ───────────────────────────────────────────
+
+Sales LY = 
+    CALCULATE(
+        [Total Sales],
+        SAMEPERIODLASTYEAR('Date'[Date])
+    )
+
+Sales YoY % = 
+    DIVIDE([Total Sales] - [Sales LY], [Sales LY], 0)
+
+Profit LY = 
+    CALCULATE(
+        [Total Profit],
+        SAMEPERIODLASTYEAR('Date'[Date])
+    )
+
+Profit YoY % = 
+    DIVIDE([Total Profit] - [Profit LY], [Profit LY], 0)
+
+// ── Formatting Measures (for KPI cards) ──────────────────────
+
+Sales Display = 
+    FORMAT([Total Sales] / 1000000, "$#,##0.00") & "M"
+
+Profit Display = 
+    FORMAT([Total Profit] / 1000000, "$#,##0.00") & "M"
+
+Margin Display = 
+    FORMAT([Profit Margin], "0.0%")
+
+// ── Dynamic Titles (respond to slicer) ───────────────────────
+
+Selected Region = 
+    IF(
+        ISFILTERED(orders[Region]),
+        "Region: " & SELECTEDVALUE(orders[Region], "Multiple"),
+        "All Regions"
+    )
+
+// ── Conditional Color (for conditional formatting) ───────────
+
+Margin Color = 
+    SWITCH(
+        TRUE(),
+        [Profit Margin] >= 0.15, "Green",   -- Strong
+        [Profit Margin] >= 0.05, "Yellow",  -- Moderate
+        [Profit Margin] >= 0,    "Orange",  -- Weak
+        "Red"                               -- Loss-making
+    )
+
+// ── Segment share ─────────────────────────────────────────────
+
+Segment Revenue Share = 
+    DIVIDE(
+        [Total Sales],
+        CALCULATE([Total Sales], ALL(orders[Segment])),
+        0
+    )
