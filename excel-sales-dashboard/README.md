@@ -112,4 +112,3 @@ Built as part of a **Data Analyst portfolio** to demonstrate:
 
 ---
 
-*If this project was helpful, please ⭐ star the repo!*
