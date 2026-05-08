@@ -1,0 +1,4 @@
+value_segment,num_customers,total_revenue,avg_spent_per_customer,avg_orders,avg_profit,revenue_share
+High Value,1219,7371418.0,6047.1,7.79,799.49,58.3
+Low Value,1218,387485.0,318.13,2.51,2.98,3.1
+Mid Value,2436,4884002.0,2004.93,5.42,200.84,38.6
