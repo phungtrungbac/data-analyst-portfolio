@@ -1,0 +1,68 @@
+// ============================================================
+// PROJECT 5: HR Analytics — DAX Measures
+// Copy these into Power BI Desktop
+// ============================================================
+
+// ── Core Metrics ─────────────────────────────────────────────
+
+Total Employees =
+    COUNTROWS(hr_data)
+
+Attrition Count =
+    CALCULATE(COUNTROWS(hr_data), hr_data[Attrition] = "Yes")
+
+Active Employees =
+    CALCULATE(COUNTROWS(hr_data), hr_data[Attrition] = "No")
+
+Attrition Rate =
+    DIVIDE([Attrition Count], [Total Employees], 0)
+
+Attrition Rate % =
+    FORMAT([Attrition Rate], "0.0%")
+
+// ── Avg Metrics ───────────────────────────────────────────────
+
+Avg Monthly Income =
+    AVERAGE(hr_data[MonthlyIncome])
+
+Avg Age =
+    AVERAGE(hr_data[Age])
+
+Avg Tenure =
+    AVERAGE(hr_data[YearsAtCompany])
+
+Avg Job Satisfaction =
+    AVERAGE(hr_data[JobSatisfaction])
+
+// ── Attrition by Segment (for conditional formatting) ────────
+
+Dept Attrition Rate =
+    DIVIDE(
+        CALCULATE([Attrition Count], ALLEXCEPT(hr_data, hr_data[Department])),
+        CALCULATE([Total Employees], ALLEXCEPT(hr_data, hr_data[Department])),
+        0
+    )
+
+// ── Risk Score (composite) ────────────────────────────────────
+// Employees with multiple risk factors
+
+High Risk Employees =
+    CALCULATE(
+        COUNTROWS(hr_data),
+        hr_data[OverTime] = "Yes",
+        hr_data[JobSatisfaction] <= 2,
+        hr_data[YearsAtCompany] <= 2
+    )
+
+// ── Retention Rate ────────────────────────────────────────────
+
+Retention Rate =
+    DIVIDE([Active Employees], [Total Employees], 0)
+
+// ── Benchmark comparison ──────────────────────────────────────
+
+Attrition vs Benchmark =
+    [Attrition Rate] - 0.15    -- 15% industry benchmark
+
+Benchmark Status =
+    IF([Attrition Rate] > 0.15, "Above Benchmark", "Within Benchmark")
