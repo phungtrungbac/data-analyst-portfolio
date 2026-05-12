@@ -170,5 +170,3 @@ Feel free to reach out if you have any questions about the projects or just want
 📧 phungtrungbac.cv@gmail.com &nbsp;|&nbsp; 🔗 [linkedin.com/in/phungtrungbac](https://linkedin.com/in/phungtrungbac)
 
 ---
-
-*⭐ If you find this portfolio helpful, feel free to leave a star!*
