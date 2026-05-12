@@ -105,5 +105,3 @@ Nếu bạn có bất kỳ câu hỏi nào về các dự án hoặc muốn kế
 - 📍 TP. Hồ Chí Minh, Việt Nam
 
 ---
-
-*⭐ Nếu bạn thấy portfolio này hữu ích, hãy để lại một star nhé!*
