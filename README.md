@@ -1,41 +1,143 @@
-# data-analyst-portfolio
-# 👋 Hi, I'm Phùng Trung Bắc
+# Bắc Phùng | Data Analyst Portfolio
 
-## 🔎 About Me
-I’m a MIS student working with data to answer business questions.  
-I use SQL, Python, and BI tools to clean data, explore patterns, and build simple dashboards.  
-Currently looking for a Junior Data Analyst opportunity.
+Welcome to my Data Analyst Portfolio.
 
----
+I am an aspiring Data Analyst with a strong interest in transforming raw data into actionable business insights.  
+This portfolio showcases projects built using SQL, Python, Power BI, Excel, and Tableau.
 
-## 🛠 Skills
-- SQL (data querying, joins, aggregations)
-- Python (pandas for data analysis)
-- Excel (data cleaning, pivot tables)
-- Power BI (basic dashboards)
+My focus includes:
+- Data Cleaning & Transformation
+- Exploratory Data Analysis (EDA)
+- Business Insight Generation
+- Dashboard Development
+- KPI & Performance Analysis
 
 ---
 
-## 📊 Projects
-*(Will keep updating)*
+# About Me
 
-### Recruitment Process Tracking (Odoo)
-- Built a recruitment workflow and tracking system  
-- Queried and analyzed hiring data  
-- Tracked metrics like pipeline status and time-to-hire  
-- Identified basic bottlenecks in the hiring process  
-👉 Link: (update later)
+- Final-year student interested in Data Analytics and Business Intelligence
+- Experienced with SQL, Python, Excel, Power BI, and Tableau
+- Passionate about solving business problems with data
+- Currently building end-to-end analytics projects for real-world scenarios
 
 ---
 
-### [Next Project]
-- Problem / dataset  
-- What I did (SQL / Python / BI)  
-- Key insight  
-👉 Link: (update later)
+# Technical Skills
+
+### Programming & Query Languages
+- SQL
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+### Data Visualization
+- Power BI
+- Tableau
+- Excel Dashboard
+
+### Database & Tools
+- MySQL
+- SQL Server
+- Git & GitHub
+- Jupyter Notebook
+
+### Analytics Skills
+- Data Cleaning
+- Exploratory Data Analysis
+- KPI Analysis
+- Dashboard Design
+- Business Reporting
+- Data Visualization
 
 ---
 
-## 📫 Contact
-- LinkedIn: https://www.linkedin.com/in/phungtrungbac/  
-- Email: phungtrungbac.cv@gmail.com  
+# Featured Projects
+
+## 1. E-commerce Sales Performance Analysis
+
+### Objective
+Analyze sales performance, customer behavior, and product trends to identify business opportunities and improve revenue performance.
+
+### Tools
+SQL • Python • Power BI • Excel
+
+### Key Insights
+- Identified top-performing product categories and customer segments
+- Analyzed monthly revenue trends and regional sales performance
+- Detected low-performing products with high return rates
+- Built interactive KPI dashboard for business monitoring
+
+### Project Links
+- 📁 Project Folder: [View Project](./E-commerce-Sales-Performance-Analysis)
+- 📊 Dashboard: [View Dashboard](#)
+- 📝 SQL Analysis: [SQL Scripts](#)
+
+---
+
+## 2. Customer Churn Analysis
+
+### Objective
+Investigate customer churn behavior and identify factors affecting retention.
+
+### Tools
+Python • SQL • Power BI
+
+### Key Insights
+- Found key drivers influencing customer churn
+- Segmented high-risk customer groups
+- Visualized churn patterns across demographics and subscriptions
+
+### Project Links
+- 📁 Project Folder: [View Project](#)
+- 📊 Dashboard: [View Dashboard](#)
+
+---
+
+## 3. HR Analytics Dashboard
+
+### Objective
+Analyze workforce performance, attrition trends, and employee distribution.
+
+### Tools
+Excel • Power BI • SQL
+
+### Key Insights
+- Tracked employee attrition rate by department
+- Identified overtime impact on employee retention
+- Developed HR KPI dashboard for management reporting
+
+### Project Links
+- 📁 Project Folder: [View Project](#)
+- 📊 Dashboard: [View Dashboard](#)
+
+---
+
+# Certifications
+
+- Google Data Analytics Professional Certificate
+- Microsoft Power BI
+- SQL for Data Analysis
+
+---
+
+# GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=phungtrungbac&show_icons=true&theme=default)
+
+---
+
+# Contact
+
+- GitHub: https://github.com/phungtrungbac
+- LinkedIn: [Your LinkedIn]
+- Email: [Your Email]
+
+---
+
+# Portfolio Goals
+
+This repository is continuously updated with new projects and analytics case studies focused on:
+- Business Analytics
+- Product Analytics
+- Customer Analytics
+- Sales & Marketing Analytics
+- Dashboard Storytelling
