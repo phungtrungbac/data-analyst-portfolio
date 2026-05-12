@@ -1,143 +1,109 @@
-# Bắc Phùng | Data Analyst Portfolio
+# 📊 Portfolio Phân Tích Dữ Liệu — Phùng Trung Bắc
 
-Welcome to my Data Analyst Portfolio.
+## 👋 Giới Thiệu Bản Thân
 
-I am an aspiring Data Analyst with a strong interest in transforming raw data into actionable business insights.  
-This portfolio showcases projects built using SQL, Python, Power BI, Excel, and Tableau.
+Xin chào! Mình là **Phùng Trung Bắc**, sinh viên ngành **Hệ thống Thông tin Quản lý** tại Trường Đại học Công nghệ TP.HCM (HUTECH), GPA 3.4/4.0.
 
-My focus includes:
-- Data Cleaning & Transformation
-- Exploratory Data Analysis (EDA)
-- Business Insight Generation
-- Dashboard Development
-- KPI & Performance Analysis
+Mình có kinh nghiệm thực tế trong việc phân tích dữ liệu vận hành và xây dựng báo cáo dữ liệu, thành thạo **SQL, Python (pandas), Excel và Power BI**. Mục tiêu của mình là trở thành một **Fresher Data Analyst** có khả năng chuyển hóa dữ liệu thô thành những insight hữu ích, hỗ trợ ra quyết định kinh doanh.
 
----
+Trong 3–5 năm tới, mình định hướng phát triển chuyên sâu về data modeling, statistical analysis và business intelligence.
 
-# About Me
-
-- Final-year student interested in Data Analytics and Business Intelligence
-- Experienced with SQL, Python, Excel, Power BI, and Tableau
-- Passionate about solving business problems with data
-- Currently building end-to-end analytics projects for real-world scenarios
+📍 TP. Hồ Chí Minh, Việt Nam
+📧 phungtrungbac.cv@gmail.com
+🔗 [linkedin.com/in/phungtrungbac](https://linkedin.com/in/phungtrungbac)
 
 ---
 
-# Technical Skills
+## 🛠️ Kỹ Năng Kỹ Thuật
 
-### Programming & Query Languages
-- SQL
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-
-### Data Visualization
-- Power BI
-- Tableau
-- Excel Dashboard
-
-### Database & Tools
-- MySQL
-- SQL Server
-- Git & GitHub
-- Jupyter Notebook
-
-### Analytics Skills
-- Data Cleaning
-- Exploratory Data Analysis
-- KPI Analysis
-- Dashboard Design
-- Business Reporting
-- Data Visualization
+| Nhóm kỹ năng | Công cụ & Công nghệ |
+|---|---|
+| **Phân tích & xử lý dữ liệu** | SQL (JOIN, Aggregation, Window Functions, CTEs, Subqueries), Python (pandas, numpy, matplotlib, seaborn) |
+| **Trực quan hóa dữ liệu** | Power BI (Dashboard, DAX), Excel (Pivot Tables, Lookup functions) |
+| **Kỹ năng phân tích** | Data Cleaning, EDA, Descriptive Statistics, Business Data Analysis |
 
 ---
 
-# Featured Projects
+## 📁 Danh Sách Dự Án
 
-## 1. E-commerce Sales Performance Analysis
+### 🛒 1. E-commerce Analytics
+**📂 Thư mục:** [`ecommerce-analytics`](./ecommerce-analytics)
 
-### Objective
-Analyze sales performance, customer behavior, and product trends to identify business opportunities and improve revenue performance.
+Phân tích toàn diện dữ liệu kinh doanh thương mại điện tử — doanh thu, hành vi khách hàng, hiệu suất sản phẩm và xu hướng đơn hàng.
 
-### Tools
-SQL • Python • Power BI • Excel
-
-### Key Insights
-- Identified top-performing product categories and customer segments
-- Analyzed monthly revenue trends and regional sales performance
-- Detected low-performing products with high return rates
-- Built interactive KPI dashboard for business monitoring
-
-### Project Links
-- 📁 Project Folder: [View Project](./E-commerce-Sales-Performance-Analysis)
-- 📊 Dashboard: [View Dashboard](#)
-- 📝 SQL Analysis: [SQL Scripts](#)
+**🔧 Công cụ:** Python (pandas, matplotlib, seaborn)
+**💡 Kỹ năng:** EDA, Data Cleaning, Data Visualization, Business Insight
 
 ---
 
-## 2. Customer Churn Analysis
+### 📊 2. Excel Sales Dashboard
+**📂 Thư mục:** [`excel-sales-dashboard`](./excel-sales-dashboard)
 
-### Objective
-Investigate customer churn behavior and identify factors affecting retention.
+Xây dựng dashboard bán hàng tương tác bằng Excel để theo dõi doanh thu, sản phẩm bán chạy và hiệu suất theo khu vực/thời gian.
 
-### Tools
-Python • SQL • Power BI
-
-### Key Insights
-- Found key drivers influencing customer churn
-- Segmented high-risk customer groups
-- Visualized churn patterns across demographics and subscriptions
-
-### Project Links
-- 📁 Project Folder: [View Project](#)
-- 📊 Dashboard: [View Dashboard](#)
+**🔧 Công cụ:** Microsoft Excel (Pivot Tables, Charts, Lookup functions)
+**💡 Kỹ năng:** Dashboard Development, KPI Tracking, Data Reporting
 
 ---
 
-## 3. HR Analytics Dashboard
+### 👥 3. Power BI HR Dashboard
+**📂 Thư mục:** [`powerbi-hr-dashboard`](./powerbi-hr-dashboard)
 
-### Objective
-Analyze workforce performance, attrition trends, and employee distribution.
+Dashboard nhân sự trên Power BI, phân tích headcount, tỷ lệ nghỉ việc, phân bổ phòng ban và các chỉ số HR quan trọng.
 
-### Tools
-Excel • Power BI • SQL
-
-### Key Insights
-- Tracked employee attrition rate by department
-- Identified overtime impact on employee retention
-- Developed HR KPI dashboard for management reporting
-
-### Project Links
-- 📁 Project Folder: [View Project](#)
-- 📊 Dashboard: [View Dashboard](#)
+**🔧 Công cụ:** Power BI (DAX, Power Query)
+**💡 Kỹ năng:** HR Analytics, Dashboard Development, DAX Measures
 
 ---
 
-# Certifications
+### 💼 4. Power BI Sales Dashboard
+**📂 Thư mục:** [`powerbi-sales-dashboard`](./powerbi-sales-dashboard)
 
-- Google Data Analytics Professional Certificate
-- Microsoft Power BI
-- SQL for Data Analysis
+Dashboard doanh thu và bán hàng trên Power BI, cung cấp cái nhìn tổng quan về hiệu suất kinh doanh theo thời gian, sản phẩm và khu vực.
 
----
-
-# GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=phungtrungbac&show_icons=true&theme=default)
+**🔧 Công cụ:** Power BI (DAX, Power Query)
+**💡 Kỹ năng:** Sales Analytics, Business Intelligence, Interactive Reporting
 
 ---
 
-# Contact
+### 🔄 5. Python Churn Analysis
+**📂 Thư mục:** [`python-churn-analysis`](./python-churn-analysis)
 
-- GitHub: https://github.com/phungtrungbac
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
+Phân tích hành vi rời bỏ của khách hàng (customer churn), xác định các yếu tố ảnh hưởng và đưa ra đề xuất giữ chân khách hàng.
+
+**🔧 Công cụ:** Python (pandas, numpy, matplotlib, seaborn)
+**💡 Kỹ năng:** Churn Analysis, EDA, Feature Analysis, Data Visualization
 
 ---
 
-# Portfolio Goals
+### 🧩 6. SQL Customer Segmentation
+**📂 Thư mục:** [`sql-customer-segmentation`](./sql-customer-segmentation)
 
-This repository is continuously updated with new projects and analytics case studies focused on:
-- Business Analytics
-- Product Analytics
-- Customer Analytics
-- Sales & Marketing Analytics
-- Dashboard Storytelling
+Phân khúc khách hàng bằng SQL dựa trên hành vi mua sắm, tần suất và giá trị đơn hàng — hỗ trợ chiến lược marketing và chăm sóc khách hàng.
+
+**🔧 Công cụ:** SQL (CTEs, Window Functions, Aggregation)
+**💡 Kỹ năng:** Customer Segmentation, RFM Analysis, Advanced SQL
+
+---
+
+### 🛍️ 7. SQL Market Basket Analysis
+**📂 Thư mục:** [`sql-market-basket`](./sql-market-basket)
+
+Phân tích giỏ hàng (market basket analysis) bằng SQL để tìm ra các sản phẩm thường được mua cùng nhau, hỗ trợ chiến lược upsell và cross-sell.
+
+**🔧 Công cụ:** SQL (JOINs, Subqueries, Aggregation)
+**💡 Kỹ năng:** Market Basket Analysis, Association Rules, Business Analytics
+
+---
+
+## 📬 Liên Hệ
+
+Nếu bạn có bất kỳ câu hỏi nào về các dự án hoặc muốn kết nối, đừng ngại liên hệ với mình!
+
+- 📧 Email: phungtrungbac.cv@gmail.com
+- 🔗 LinkedIn: [linkedin.com/in/phungtrungbac](https://linkedin.com/in/phungtrungbac)
+- 📍 TP. Hồ Chí Minh, Việt Nam
+
+---
+
+*⭐ Nếu bạn thấy portfolio này hữu ích, hãy để lại một star nhé!*
